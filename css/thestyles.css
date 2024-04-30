@@ -1,0 +1,1157 @@
+/**
+ * Created by Binil
+*/
+/*-------------------------------------- Fonts Starts -------------------------------------*/
+/*--------------------------------------- Fonts Ends --------------------------------------*/
+/*------------------------------------- Colors Starts -------------------------------------*/
+/*-------------------------------------- Colors Ends --------------------------------------*/
+/*-------------------------------------- Mixins Starts ------------------------------------*/
+.ex-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.ex-flex-wrap {
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+.ex-vertical {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ex-transition {
+  transition: all 0.6s ease;
+}
+
+.ex-transition-medium {
+  transition: all 1.2s ease;
+}
+
+.ex-transition-large {
+  transition: all 1.8s ease;
+}
+
+/*--------------------------------------- Mixins Ends -------------------------------------*/
+/*--------------------------------- Header Css Starts ---------------------------------*/
+#header {
+  background-color: #F7F5FA;
+  padding: 20px 0px;
+}
+#header .logo {
+  font-size: 34px;
+}
+#header .logo a {
+  color: #0A033C;
+}
+#header .main-menu ul {
+  justify-content: flex-end;
+}
+#header .main-menu ul li {
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+}
+#header .main-menu ul li a {
+  color: #fff;
+}
+#header .main-menu ul .login {
+  background-color: #098c43;
+  padding: 8px 25px;
+  color: #fff;
+  border-radius: 30px;
+}
+#header .main-menu ul .login i {
+  font-size: 14px;
+  padding-right: 8px;
+}
+#header .login {
+  background-color: #098c43;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 30px;
+}
+#header .login i {
+  font-size: 14px;
+  padding-right: 8px;
+}
+#header .navbar-brand {
+  font-family: "Metropolis";
+  color: #fff;
+  font-size: 34px;
+  padding: 0px;
+}
+#header .navbar {
+  padding: 0;
+}
+#header .navbar-nav {
+  align-items: center;
+}
+#header .navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+#header .nav-link {
+  color: #0A033C;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0px 1.313rem;
+}
+#header .nav-link:hover {
+  border-bottom: 1px solid #fff;
+}
+
+/*--------------------------------- Header Css Ends ---------------------------------*/
+/*---------------------------------- Banner CSS Starts ----------------------------------*/
+#banner {
+  background-color: #F7F5FA;
+  padding: 150px 0px 0px 0px;
+  position: relative;
+}
+#banner .bannerL {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 70px 100px 0px;
+  color: #5D5A6F;
+}
+#banner .bannerL p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px 0px 20px 0px;
+}
+#banner .bannerL .banner-search form {
+  position: relative;
+}
+#banner .bannerL .banner-search form input {
+  max-width: 610px;
+  padding: 20px 15px;
+  border-radius: 8px;
+}
+#banner .bannerL .banner-search select {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  display: inline-block;
+}
+#banner .bannerL .banner-search .search-btn {
+  padding: 15px 35px;
+  background-color: #9C4DF4;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  border-radius: 8px;
+}
+#banner .bannerL .banner-search .search-btn:hover {
+  background: #515ffe;
+  background: linear-gradient(to right, #515ffe 0%, #4e94fe 50%, #4cc4fe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#515ffe", endColorstr="#4cc4fe",GradientType=1 );
+  color: #fff;
+  transition: all 0.6s ease;
+}
+#banner .bannerL .banner-search .search-btn a {
+  color: #fff;
+}
+#banner .bannerL .ex-text {
+  color: #fff;
+  padding-top: 20px;
+}
+#banner .bannerL .ex-text ul li {
+  border-right: 1px solid #fff;
+  padding: 0px 10px;
+}
+#banner .bannerL .ex-text ul li:last-child {
+  border-right: none;
+}
+#banner .bannerR {
+  position: relative;
+}
+#banner .bannerR img {
+  position: absolute;
+  bottom: 0px;
+}
+
+/*---------------------------------- Banner CSS Ends ----------------------------------*/
+/*---------------------------------- Homepage CSS Starts ----------------------------------*/
+#partners {
+  background-color: #f9faff;
+  padding: 15px 0px;
+  border-bottom: 1px solid #e9ecfa;
+}
+#partners ul {
+  display: flex;
+}
+#featured-container {
+  padding: 100px 0px;
+  background-color: #f7f9ff;
+  border-bottom: 1px solid #dee2ef;
+}
+#featured-container .section-title p {
+  padding: 0px 150px;
+}
+#featured-container .pb-15 {
+  margin-bottom: 30px;
+}
+#featured-container .item-block {
+  padding: 0px;
+  box-shadow: 2px 0px 4px 2px rgba(205, 205, 205, 0.75);
+  border-radius: 6px;
+}
+#featured-container .item-block .ext {
+  background: #515ffe;
+  background: linear-gradient(to right, #515ffe 0%, #4e94fe 50%, #4cc4fe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#515ffe", endColorstr="#4cc4fe",GradientType=1 );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 65px 0px;
+  color: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#featured-container .item-block .details {
+  padding: 10px 15px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: #fff;
+}
+#featured-container .item-block .details ul li {
+  line-height: 26px;
+}
+#featured-container .item-block .details ul li:last-child {
+  border-bottom: 1px solid #e9ecfa;
+  padding-bottom: 10px;
+}
+#featured-container .item-block .price-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px 15px 15px;
+  font-size: 16px;
+  color: #098c43;
+  font-weight: 600;
+  background-color: #fff;
+}
+
+#why-us-container .line {
+  padding: 100px 0px;
+}
+#why-us-container .why-us-block h2 i {
+  color: #098c43;
+}
+#why-us-container .why-us-block p {
+  padding: 10px 0px;
+}
+
+#get-started {
+  background-color: #f9faff;
+  padding: 40px 0px;
+  border-top: 1px solid #dee2ef;
+  border-bottom: 1px solid #dee2ef;
+}
+#get-started .info {
+  display: flex;
+  justify-content: space-between;
+}
+#get-started .info h4 {
+  color: #098c43;
+  font-weight: 500;
+  padding-top: 15px;
+}
+
+#testimonials {
+  padding: 100px 0px;
+  text-align: center;
+}
+#testimonials .items-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#testimonials .items-block img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#testimonials .items-block p {
+  padding: 0px 200px;
+  position: relative;
+  z-index: 99;
+}
+#testimonials .items-block p::before {
+  font-family: "FontAwesome";
+  content: "\f10d";
+  position: absolute;
+  font-size: 26px;
+  top: -12px;
+  z-index: 9;
+  color: #098c43;
+}
+#testimonials .items-block .name {
+  display: block;
+  margin: 30px 0px;
+  color: #0A033C;
+}
+
+#tags {
+  background-color: #f9faff;
+  padding: 100px 0px 70px 0px;
+  border-top: 1px solid #dee2ef;
+}
+#tags .tag-block {
+  background-color: #f9f9f9;
+  box-shadow: 0px 2px 4px rgba(205, 205, 205, 0.75);
+  border-radius: 30px;
+  padding: 15px 35px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#tags .tag-block:hover {
+  background: #515ffe;
+  background: linear-gradient(to right, #515ffe 0%, #4e94fe 50%, #4cc4fe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#515ffe", endColorstr="#4cc4fe",GradientType=1 );
+  color: #fff;
+}
+#tags .tag-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/*---------------------------------- Homepage CSS Ends ----------------------------------*/
+/*---------------------------------- Footer CSS Starts ----------------------------------*/
+footer {
+  background-color: #0e1724;
+  padding: 100px 0px 0px 0px;
+  color: #fff;
+}
+footer h5 {
+  font-family: "Metropolis";
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+footer ul li {
+  line-height: 30px;
+}
+footer ul li a {
+  color: #fff;
+}
+footer ul li a:hover {
+  color: #0A033C;
+  transition: 0.5s;
+  margin-left: 5px;
+}
+footer .social-icons {
+  margin-top: 30px;
+}
+footer .social-icons ul {
+  display: flex;
+  gap: 20px;
+}
+footer .social-icons ul li {
+  justify-content: space-between;
+}
+footer .fbottom {
+  border-top: 1px solid #fff;
+  padding: 30px 0px;
+  margin-top: 100px;
+}
+footer .fbottom a {
+  color: #fff;
+}
+footer .fbottom a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+footer .fbottom .flinks ul {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+footer .fbottom .flinks ul li {
+  justify-content: space-between;
+}
+footer .fbottom .flinks ul li:hover {
+  margin: 0px;
+  transition: none;
+}
+
+/*---------------------------------- Footer CSS Ends ----------------------------------*/
+/*--------------------------------- Listing-Page Css Starts ---------------------------------*/
+#listing-page .breadcrumb {
+  padding: 50px 0px;
+  background: #098d44;
+  background: linear-gradient(to right, #098d44 0%, #036d31 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#098d44", endColorstr="#036d31",GradientType=1 );
+  color: #fff;
+}
+#listing-page .listing-container {
+  padding: 50px 0px;
+  display: flex;
+  gap: 30px;
+}
+#listing-page .listing-container .col-left {
+  width: 30%;
+}
+#listing-page .listing-container .col-left .cat {
+  box-shadow: 0px 2px 7px rgba(205, 205, 205, 0.75);
+  padding: 20px 15px;
+  border-radius: 8px;
+}
+#listing-page .listing-container .col-left .cat h1 {
+  color: #098c43;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#listing-page .listing-container .col-left .cat form {
+  padding-top: 10px;
+}
+#listing-page .listing-container .col-left .cat form .clist {
+  line-height: 36px;
+}
+#listing-page .listing-container .col-left .cat form .clist label {
+  padding-left: 8px;
+}
+#listing-page .listing-container .col-left .price-range {
+  box-shadow: 0px 2px 7px rgba(205, 205, 205, 0.75);
+  padding: 20px 15px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+#listing-page .listing-container .col-left .price-range .range-slider {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding-top: 30px;
+  /*hide the outline behind the border*/
+}
+#listing-page .listing-container .col-left .price-range .range-slider .rangeValues {
+  display: block;
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range] {
+  -webkit-appearance: none;
+  border: 1px solid white;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #0A033C;
+  margin-top: -4px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range]:focus {
+  outline: none;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range]::-moz-range-track {
+  width: 300px;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range]::-moz-range-thumb {
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #0A033C;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range]:-moz-focusring {
+  outline: 1px solid white;
+  outline-offset: -1px;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range]::-ms-track {
+  width: 300px;
+  height: 5px;
+  background: transparent;
+  border-color: transparent;
+  border-width: 6px 0;
+  color: transparent;
+  z-index: -4;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range]::-ms-fill-lower {
+  background: #777;
+  border-radius: 10px;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range]::-ms-fill-upper {
+  background: #ddd;
+  border-radius: 10px;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range]::-ms-thumb {
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #21c1ff;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range]:focus::-ms-fill-lower {
+  background: #888;
+}
+#listing-page .listing-container .col-left .price-range .range-slider input[type=range]:focus::-ms-fill-upper {
+  background: #ccc;
+}
+#listing-page .listing-container .col-left .price-range h1 {
+  color: #098c43;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#listing-page .listing-container .col-left .price-range form {
+  padding-top: 10px;
+}
+#listing-page .listing-container .col-left .price-range form .clist {
+  line-height: 36px;
+}
+#listing-page .listing-container .col-left .price-range form .clist label {
+  padding-left: 8px;
+}
+#listing-page .listing-container .col-left .extension {
+  box-shadow: 0px 2px 7px rgba(205, 205, 205, 0.75);
+  padding: 20px 15px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+#listing-page .listing-container .col-left .extension h1 {
+  color: #098c43;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#listing-page .listing-container .col-left .extension form {
+  padding-top: 10px;
+}
+#listing-page .listing-container .col-left .extension form .clist {
+  line-height: 36px;
+}
+#listing-page .listing-container .col-left .extension form .clist label {
+  padding-left: 8px;
+}
+#listing-page .listing-container .col-right {
+  width: 70%;
+}
+#listing-page .listing-container .col-right .sort {
+  width: 30%;
+  float: right;
+}
+#listing-page .listing-container .col-right .sort label {
+  padding-top: 5px;
+  padding-right: 10px;
+}
+#listing-page .listing-container .col-right .product-container {
+  padding: 60px 0px;
+}
+#listing-page .listing-container .col-right .product-container .section-title p {
+  padding: 0px 150px;
+}
+#listing-page .listing-container .col-right .product-container .pb-15 {
+  margin-bottom: 30px;
+}
+#listing-page .listing-container .col-right .product-container .item-block {
+  padding: 0px;
+  box-shadow: 2px 0px 4px 2px rgba(205, 205, 205, 0.75);
+  border-radius: 6px;
+}
+#listing-page .listing-container .col-right .product-container .item-block .ext {
+  background: #515ffe;
+  background: linear-gradient(to right, #515ffe 0%, #4e94fe 50%, #4cc4fe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#515ffe", endColorstr="#4cc4fe",GradientType=1 );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 75px 0px;
+  color: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#listing-page .listing-container .col-right .product-container .item-block .details {
+  padding: 15px 15px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+#listing-page .listing-container .col-right .product-container .item-block .details ul li {
+  line-height: 26px;
+}
+#listing-page .listing-container .col-right .product-container .item-block .details ul li:last-child {
+  border-bottom: 1px solid #e9ecfa;
+  padding-bottom: 15px;
+}
+#listing-page .listing-container .col-right .product-container .item-block .price-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px 15px 15px;
+  font-size: 16px;
+  color: #098c43;
+  font-weight: 600;
+}
+#listing-page .pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#listing-page .pagination ul {
+  display: flex;
+  gap: 15px;
+}
+#listing-page .pagination ul li {
+  justify-content: space-between;
+}
+#listing-page .pagination ul li a {
+  border-radius: 50%;
+  text-align: center;
+  border: none;
+  padding: 10px 15px;
+  background-color: #5D5A6F;
+  color: #fff;
+}
+#listing-page .pagination ul .active a {
+  color: #6c757d;
+  background-color: #098c43;
+  color: #fff;
+  border: none;
+}
+
+/*--------------------------------- Listing-Page Css Ends ---------------------------------*/
+/*--------------------------------- Listing-Details-Page Css Starts ---------------------------------*/
+#listing-details-page .breadcrumb {
+  padding: 50px 0px;
+  background: #098d44;
+  background: linear-gradient(to right, #098d44 0%, #036d31 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#098d44", endColorstr="#036d31",GradientType=1 );
+  color: #fff;
+}
+#listing-details-page .listing-container {
+  padding: 50px 0px;
+  display: flex;
+  gap: 30px;
+}
+#listing-details-page .listing-container .col-left {
+  width: 60%;
+}
+#listing-details-page .listing-container .col-left .logo-banner img {
+  width: 100%;
+}
+#listing-details-page .listing-container .col-left .domain-info {
+  box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+  padding: 30px 30px 50px 30px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+#listing-details-page .listing-container .col-left .domain-info h1 {
+  color: #098c43;
+  font-weight: 600;
+}
+#listing-details-page .listing-container .col-left .domain-info h2 {
+  color: #0e1724;
+  font-weight: 500;
+}
+#listing-details-page .listing-container .col-left .domain-info .time {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+}
+#listing-details-page .listing-container .col-left .domain-info .time div {
+  justify-content: space-evenly;
+  width: 33.33%;
+  border-right: 2px solid #5D5A6F;
+  font-size: 20px;
+}
+#listing-details-page .listing-container .col-left .domain-info .time div:last-child {
+  border-right: none;
+}
+#listing-details-page .listing-container .col-left .domain-info .time div .age,
+#listing-details-page .listing-container .col-left .domain-info .time div .host,
+#listing-details-page .listing-container .col-left .domain-info .time div .expires {
+  font-size: 26px;
+  line-height: 42px;
+  display: block;
+  font-weight: 600;
+}
+#listing-details-page .listing-container .col-left .domain-info .mob-share-icons,
+#listing-details-page .listing-container .col-left .domain-info .mob-list-btns {
+  display: none;
+}
+#listing-details-page .listing-container .col-left .faq {
+  margin-top: 30px;
+}
+#listing-details-page .listing-container .col-left .faq .accordion .card {
+  margin-bottom: 5px;
+  border-radius: 0px;
+  border: 1px solid #eae8e8;
+}
+#listing-details-page .listing-container .col-left .faq .accordion .card .card-header {
+  background-color: #f2f2f2;
+  padding: 5px 15px;
+}
+#listing-details-page .listing-container .col-left .faq .accordion .card .card-header h1 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #098c43 !important;
+}
+#listing-details-page .listing-container .col-left .faq .accordion-button {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+#listing-details-page .listing-container .col-left .faq .faq-btn {
+  background-color: transparent;
+  border: none;
+  padding: 5px 0px;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#listing-details-page .listing-container .col-left .faq h2 {
+  color: #5D5A6F;
+  font-weight: 500;
+}
+#listing-details-page .listing-container .col-left .reviews {
+  margin-top: 60px;
+}
+#listing-details-page .listing-container .col-left .reviews h2 {
+  color: #098c43;
+  margin-bottom: 15px;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container {
+  box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+  padding: 25px;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .cmt-block {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .cmt-block .user-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .cmt-block .user-cmt {
+  width: 100%;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .cmt-block .user-cmt input[type=text] {
+  width: 100%;
+  padding: 10px 0px;
+  padding: 15px;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  padding: 20px 0px;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block .user-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block .reply-cmt-1 {
+  display: flex;
+  flex-direction: column;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block .reply-cmt-1 .comments {
+  padding: 15px 0px;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block .reply-cmt-1 .icons-share ul {
+  display: flex;
+  gap: 5px;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block .reply-cmt-1 .icons-share ul li {
+  border-right: 1px solid #0e1724;
+  padding-right: 5px;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block .reply-cmt-1 .icons-share ul li:last-child {
+  border-right: none;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block-2 {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  padding: 20px 0px;
+  margin-left: 60px;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block-2 .user-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block-2 .reply-cmt-1 {
+  display: flex;
+  flex-direction: column;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block-2 .reply-cmt-1 .comments {
+  padding: 15px 0px;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block-2 .reply-cmt-1 .icons-share ul {
+  display: flex;
+  gap: 5px;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block-2 .reply-cmt-1 .icons-share ul li {
+  border-right: 1px solid #0e1724;
+  padding-right: 5px;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container .reply-block-2 .reply-cmt-1 .icons-share ul li:last-child {
+  border-right: none;
+}
+#listing-details-page .listing-container .col-left .reviews .review-container button {
+  width: 100%;
+  color: #fff;
+  margin-top: 30px;
+}
+#listing-details-page .listing-container .col-right {
+  width: 40%;
+}
+#listing-details-page .listing-container .col-right .domain-details {
+  box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+  border-radius: 2px;
+  border-top: 3px solid #0A033C;
+}
+#listing-details-page .listing-container .col-right .domain-details .domain-details-info {
+  display: flex;
+  gap: 25px;
+  padding: 30px 30px 0px 30px;
+}
+#listing-details-page .listing-container .col-right .domain-details .domain-details-info div {
+  width: 50%;
+  justify-content: space-around;
+  font-size: 20px;
+  line-height: 32px;
+}
+#listing-details-page .listing-container .col-right .domain-details .domain-details-info div .current-price,
+#listing-details-page .listing-container .col-right .domain-details .domain-details-info div .rem-days {
+  display: block;
+  color: #098c43;
+  font-size: 26px;
+  font-weight: 600;
+}
+#listing-details-page .listing-container .col-right .domain-details .share-icons {
+  display: flex;
+  margin-top: 30px;
+  padding: 0px 30px 0px 30px;
+}
+#listing-details-page .listing-container .col-right .domain-details .share-icons ul {
+  display: flex;
+  gap: 15px;
+}
+#listing-details-page .listing-container .col-right .domain-details .share-icons ul li {
+  justify-content: space-evenly;
+  padding-left: 10px;
+}
+#listing-details-page .listing-container .col-right .domain-details .list-btns {
+  display: flex;
+  gap: 15px;
+  padding: 0px 30px 30px 30px;
+  margin-top: 30px;
+}
+#listing-details-page .listing-container .col-right .domain-details .list-btns div {
+  width: 100%;
+}
+#listing-details-page .listing-container .col-right .domain-details .modal-header button {
+  background-color: #098c43;
+  border: 1px solid #098c43;
+  color: #fff;
+}
+#listing-details-page .listing-container .col-right .domain-details .modal-header .modal-body form .form-group {
+  margin-bottom: 30px;
+}
+#listing-details-page .listing-container .col-right .domain-details .modal-header .modal-body form .form-group input[type=s] {
+  min-height: 150px;
+}
+#listing-details-page .listing-container .col-right .domain-details .quick-info {
+  border-top: 1px solid #eae9e9;
+  padding: 0px 30px 30px 30px;
+}
+#listing-details-page .listing-container .col-right .domain-details .quick-info .item-wrapper {
+  display: flex;
+  margin-top: 30px;
+  gap: 25px;
+}
+#listing-details-page .listing-container .col-right .domain-details .quick-info .item-wrapper .quick-info-details h5 {
+  padding-bottom: 10px;
+}
+#listing-details-page .recommended {
+  padding-top: 0px;
+}
+#listing-details-page .recommended h2 {
+  color: #098c43;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+/*--------------------------------- Listing-Details-Page Css Ends ---------------------------------*/
+/*--------------------------------- Auction-Page Css Ends ---------------------------------*/
+#auction-page .breadcrumb {
+  padding: 50px 0px;
+  background: #098d44;
+  background: linear-gradient(to right, #098d44 0%, #036d31 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#098d44", endColorstr="#036d31",GradientType=1 );
+  color: #fff;
+}
+#auction-page .auction-container {
+  padding: 50px 0px;
+}
+#auction-page .auction-container h1 {
+  color: #098c43;
+}
+#auction-page .auction-container .ex-flex {
+  justify-content: space-between;
+}
+#auction-page .auction-container .ex-flex .sort {
+  text-align: end;
+}
+#auction-page .auction-container .ex-flex .sort label {
+  padding-top: 5px;
+  padding-right: 10px;
+}
+#auction-page .auction-container .auction-table {
+  margin: 30px 0px;
+  box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+}
+#auction-page .auction-container .auction-table table thead {
+  background: #515ffe;
+  background: linear-gradient(to right, #515ffe 0%, #4e94fe 50%, #4cc4fe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#515ffe", endColorstr="#4cc4fe",GradientType=1 );
+  color: #fff;
+}
+#auction-page .auction-container .auction-table table thead td {
+  padding: 20px 30px;
+}
+#auction-page .auction-container .auction-table table tr td {
+  padding: 20px 30px;
+}
+#auction-page .auction-container .auction-table table tr .domain {
+  color: #0A033C;
+}
+#auction-page .auction-container .auction-table table tr .bid-btn {
+  background-color: #098c43;
+  padding: 10px 18px;
+  border-radius: 30px;
+  color: #fff;
+}
+#auction-page .auction-container .pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#auction-page .auction-container .pagination ul {
+  display: flex;
+  gap: 15px;
+}
+#auction-page .auction-container .pagination ul li {
+  justify-content: space-between;
+}
+#auction-page .auction-container .pagination ul li a {
+  border-radius: 50%;
+  text-align: center;
+  border: none;
+  padding: 10px 15px;
+  background-color: #5D5A6F;
+  color: #fff;
+}
+#auction-page .auction-container .pagination ul .active a {
+  color: #6c757d;
+  background-color: #098c43;
+  color: #fff;
+  border: none;
+}
+
+/*--------------------------------- Auction-Page Css Ends ---------------------------------*/
+/*--------------------------------- Auction-Details-Page Css Ends ---------------------------------*/
+#auction-details-page .breadcrumb {
+  padding: 50px 0px;
+  background: #098d44;
+  background: linear-gradient(to right, #098d44 0%, #036d31 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#098d44", endColorstr="#036d31",GradientType=1 );
+  color: #fff;
+}
+#auction-details-page .auction-details-container {
+  padding: 50px 0px;
+}
+#auction-details-page .auction-details-container .auction-table {
+  box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+}
+#auction-details-page .auction-details-container .auction-table table thead {
+  background: #515ffe;
+  background: linear-gradient(to right, #515ffe 0%, #4e94fe 50%, #4cc4fe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#515ffe", endColorstr="#4cc4fe",GradientType=1 );
+  color: #fff;
+}
+#auction-details-page .auction-details-container .auction-table table thead td {
+  padding: 20px 30px;
+}
+#auction-details-page .auction-details-container .auction-table table tr td {
+  padding: 20px 30px;
+}
+#auction-details-page .auction-details-container .auction-table table tr .domain {
+  color: #0A033C;
+}
+#auction-details-page .auction-details-container .auction-table table tr .bid-btn {
+  background-color: #098c43;
+  padding: 10px 18px;
+  border-radius: 30px;
+  color: #fff;
+}
+#auction-details-page .auction-details-container .auction-price {
+  border-radius: 2px;
+  border-top: 3px solid #4e93fe;
+  box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+  padding: 30px 30px;
+}
+#auction-details-page .auction-details-container .auction-price .auction-details-info {
+  display: flex;
+  gap: 25px;
+}
+#auction-details-page .auction-details-container .auction-price .auction-details-info div {
+  width: 50%;
+  justify-content: space-around;
+  font-size: 20px;
+  line-height: 32px;
+}
+#auction-details-page .auction-details-container .auction-price .auction-details-info .current-price {
+  display: block;
+  color: #098c43;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: end;
+}
+#auction-details-page .auction-details-container .auction-price .make-bid {
+  padding: 30px 0px 30px;
+}
+#auction-details-page .auction-details-container .auction-price .make-bid label {
+  padding-bottom: 6px;
+}
+#auction-details-page .auction-details-container .auction-price .make-bid .auction-btn {
+  width: 32%;
+  padding: 12px 15px;
+  background: #098d44;
+  background: linear-gradient(to right, #098d44 0%, #036d31 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#098d44", endColorstr="#036d31",GradientType=1 );
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+#auction-details-page .auction-details-container .auction-price .make-bid .auction-btn:hover {
+  background: #515ffe;
+  background: linear-gradient(to right, #515ffe 0%, #4e94fe 50%, #4cc4fe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#515ffe", endColorstr="#4cc4fe",GradientType=1 );
+  color: #fff;
+  transition: all 0.6s ease;
+}
+#auction-details-page .auction-details-container .auction-price .make-bid .auction-btn a {
+  color: #fff;
+}
+#auction-details-page .auction-details-container .auction-price .how-it-works h2 {
+  color: #098c43;
+  text-transform: uppercase;
+  padding: 15px 0px 10px 0px;
+}
+#auction-details-page .auction-details-container .auction-price .how-it-works ul li {
+  padding-bottom: 15px;
+}
+#auction-details-page .auction-details-container .auction-price .how-it-works ul li .fa-solid {
+  color: #000;
+  height: 45px;
+  margin-top: 5px;
+  width: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  float: left;
+}
+
+/*--------------------------------- Auction-Details-Page Css Ends ---------------------------------*/
+/*--------------------------------- About-Us-Page Css Ends ---------------------------------*/
+#about-us .breadcrumb {
+  padding: 50px 0px;
+  background: #098d44;
+  background: linear-gradient(to right, #098d44 0%, #036d31 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#098d44", endColorstr="#036d31",GradientType=1 );
+  color: #fff;
+}
+#about-us .about-container {
+  padding: 50px 0px;
+}
+
+/*--------------------------------- Contact-Us Page Css Starts ---------------------------------*/
+#contact-us .breadcrumb {
+  padding: 50px 0px;
+  background: #098d44;
+  background: linear-gradient(to right, #098d44 0%, #036d31 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#098d44", endColorstr="#036d31",GradientType=1 );
+  color: #fff;
+}
+#contact-us .contact-container {
+  padding: 50px 0px;
+}
+#contact-us .contact-container h1 {
+  color: #098c43;
+}
+#contact-us .contact-container .form-group {
+  padding-bottom: 15px;
+}
+#contact-us .contact-container .form-group textarea {
+  min-height: 290px;
+}
+#contact-us .contact-container .contact-details {
+  text-align: center;
+  padding: 100px 0px 0px 0px;
+}
+#contact-us .contact-container .contact-details .block-item {
+  background-color: #f7f8f9;
+  padding: 50px 15px;
+  border: 1px solid #f2f2f2;
+}
+#contact-us .contact-container .contact-details .block-item ul li {
+  line-height: 36px;
+}
+#contact-us .contact-container .contact-details .block-item ul li h4 {
+  font-family: "Metropolis";
+}
+#contact-us .contact-container .contact-details .block-item ul li i {
+  font-size: 22px;
+  color: #098c43;
+  padding-top: 20px;
+}
+#contact-us .contact-container .contact-details .block-item ul li i:hover {
+  color: #fff;
+}
+#contact-us .contact-container .contact-details .block-item ul ul.contact-icons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  text-align: center;
+}
+#contact-us .contact-container .contact-details .block-item ul ul.contact-icons li {
+  justify-content: center;
+  text-align: center;
+}
+
+/*--------------------------------- Contact-Us Page Css Starts ---------------------------------*//*# sourceMappingURL=thestyles.css.map */

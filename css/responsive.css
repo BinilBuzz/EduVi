@@ -1,0 +1,1364 @@
+/**
+ * Created by Binil
+*/
+/*-------------------------------------- Fonts Starts -------------------------------------*/
+/*--------------------------------------- Fonts Ends --------------------------------------*/
+/*------------------------------------- Colors Starts -------------------------------------*/
+/*-------------------------------------- Colors Ends --------------------------------------*/
+/*-------------------------------------- Mixins Starts ------------------------------------*/
+.ex-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.ex-flex-wrap {
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+.ex-vertical {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ex-transition {
+  transition: all 0.6s ease;
+}
+
+.ex-transition-medium {
+  transition: all 1.2s ease;
+}
+
+.ex-transition-large {
+  transition: all 1.8s ease;
+}
+
+/*--------------------------------------- Mixins Ends -------------------------------------*/
+@media all and (max-width: 1900px) {
+  #listing-details-page .listing-container .col-left .domain-info .mob-current-price {
+    display: none;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .mob-time-rem {
+    display: none;
+  }
+  #listing-details-page .listing-container .col-left .reviews .review-container .reply-block-2 {
+    margin-left: 0px;
+  }
+}
+@media all and (max-width: 1600px) {
+  #listing-details-page .listing-container .col-left .domain-info .mob-current-price {
+    display: none;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .mob-time-rem {
+    display: none;
+  }
+  #listing-details-page .listing-container .col-left .reviews .review-container .reply-block-2 {
+    margin-left: 0px;
+  }
+}
+@media all and (max-width: 1399px) {
+  .main-btn-blue {
+    padding: 15px 15px;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 41px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  #header .nav-link {
+    padding: 0px 10px;
+  }
+  #featured-container {
+    padding: 50px 0px;
+  }
+  #why-us-container .line {
+    border-top: 2px solid #ccc;
+    padding: 100px 0px;
+  }
+  #why-us-container .why-us-block p {
+    padding: 10px 0px;
+  }
+  #why-us-container .line {
+    border-top: 2px solid #ccc;
+    padding: 100px 0px;
+  }
+  #why-us-container .why-us-block p {
+    padding: 10px 0px;
+  }
+  #why-us-container .line {
+    border-top: 2px solid #ccc;
+    padding: 100px 0px;
+  }
+  #why-us-container .why-us-block p {
+    padding: 10px 0px;
+  }
+  #why-us-container .line {
+    border-top: 2px solid #ccc;
+    padding: 100px 0px;
+  }
+  #why-us-container .why-us-block p {
+    padding: 10px 0px;
+  }
+  #why-us-container .line {
+    border-top: 2px solid #ccc;
+    padding: 100px 0px;
+  }
+  #why-us-container .why-us-block p {
+    padding: 10px 0px;
+  }
+  #why-us-container .line {
+    border-top: 2px solid #ccc;
+    padding: 100px 0px;
+  }
+  #why-us-container .why-us-block p {
+    padding: 10px 0px;
+  }
+  #why-us-container .line {
+    border-top: 2px solid #ccc;
+    padding: 100px 0px;
+  }
+  #why-us-container .why-us-block p {
+    padding: 10px 0px;
+  }
+  #why-us-container .line {
+    border-top: 2px solid #ccc;
+    padding: 100px 0px;
+  }
+  #why-us-container .why-us-block p {
+    padding: 10px 0px;
+  }
+  #why-us-container .line {
+    border-top: 2px solid #ccc;
+    padding: 100px 0px;
+  }
+  #why-us-container .why-us-block p {
+    padding: 10px 0px;
+  }
+  #why-us-container .line {
+    border-top: 2px solid #ccc;
+    padding: 100px 0px;
+  }
+  #why-us-container .why-us-block p {
+    padding: 10px 0px;
+  }
+  #why-us-container .line {
+    border-top: 2px solid #ccc;
+    padding: 100px 0px;
+  }
+  #why-us-container .why-us-block p {
+    padding: 10px 0px;
+  }
+  #why-us-container .line {
+    border-top: 2px solid #ccc;
+    padding: 100px 0px;
+  }
+  #why-us-container .why-us-block p {
+    padding: 10px 0px;
+  }
+  #why-us-container .line {
+    border-top: 2px solid #ccc;
+    padding: 100px 0px;
+  }
+  #why-us-container .why-us-block p {
+    padding: 10px 0px;
+  }
+  #why-us-container .line {
+    padding: 50px 0px;
+  }
+  #why-us-container .why-us-block p {
+    text-align: justify;
+  }
+  #testimonials {
+    padding: 50px 0px;
+    text-align: center;
+  }
+  #tags {
+    padding: 50px 0px 50px 0px;
+  }
+  footer {
+    padding: 50px 0px 0px 0px;
+  }
+  footer .fbottom {
+    padding: 30px 0px 30px 0px;
+    margin-top: 50px;
+  }
+  #listing-details-page .listing-container .col-left {
+    width: 60%;
+  }
+  #listing-details-page .listing-container .col-left .domain-info h1 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info h2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .time {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .time div {
+    justify-content: space-evenly;
+    width: 33.33%;
+    border-right: 2px solid #5D5A6F;
+    font-size: 22px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .time .age,
+  #listing-details-page .listing-container .col-left .domain-info .time .host,
+  #listing-details-page .listing-container .col-left .domain-info .time .expires {
+    font-size: 22px !important;
+    line-height: 28px;
+  }
+  #listing-details-page .listing-container .col-right {
+    width: 40%;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info div {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info div .current-price,
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info div .rem-days {
+    font-size: 20px !important;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .listing-btns div {
+    padding: 15px 0px;
+  }
+  #auction-details-page .breadcrumb {
+    padding: 50px 0px;
+    background: #098d44;
+    background: linear-gradient(to right, #098d44 0%, #036d31 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#098d44", endColorstr="#036d31",GradientType=1 );
+    color: #fff;
+  }
+  #auction-details-page .auction-details-container {
+    padding: 50px 0px;
+  }
+  #auction-details-page .auction-details-container .auction-table {
+    box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+  }
+  #auction-details-page .auction-details-container .auction-table table thead {
+    background: #515ffe;
+    background: linear-gradient(to right, #515ffe 0%, #4e94fe 50%, #4cc4fe 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#515ffe", endColorstr="#4cc4fe",GradientType=1 );
+    color: #fff;
+  }
+  #auction-details-page .auction-details-container .auction-table table thead td {
+    padding: 20px 30px;
+  }
+  #auction-details-page .auction-details-container .auction-table table tr td {
+    padding: 20px 30px;
+  }
+  #auction-details-page .auction-details-container .auction-table table tr .domain {
+    color: #0A033C;
+  }
+  #auction-details-page .auction-details-container .auction-table table tr .bid-btn {
+    background-color: #098c43;
+    padding: 10px 18px;
+    border-radius: 30px;
+    color: #fff;
+  }
+  #auction-details-page .auction-details-container .auction-price {
+    border-radius: 2px;
+    border-top: 3px solid #4e93fe;
+    box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+    padding: 30px 30px;
+  }
+  #auction-details-page .auction-details-container .auction-price .auction-details-info {
+    display: flex;
+    gap: 25px;
+  }
+  #auction-details-page .auction-details-container .auction-price .auction-details-info div {
+    width: 50%;
+    justify-content: space-around;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  #auction-details-page .auction-details-container .auction-price .auction-details-info .current-price {
+    display: block;
+    color: #098c43;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: end;
+  }
+  #auction-details-page .auction-details-container .auction-price .make-bid {
+    padding: 30px 0px 30px;
+  }
+  #auction-details-page .auction-details-container .auction-price .make-bid label {
+    padding-bottom: 6px;
+  }
+  #auction-details-page .auction-details-container .auction-price .make-bid .auction-btn {
+    width: 32%;
+    padding: 12px 15px;
+    background: #098d44;
+    background: linear-gradient(to right, #098d44 0%, #036d31 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#098d44", endColorstr="#036d31",GradientType=1 );
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  #auction-details-page .auction-details-container .auction-price .how-it-works h2 {
+    color: #098c43;
+    text-transform: uppercase;
+    padding: 15px 0px 10px 0px;
+  }
+  #auction-details-page .auction-details-container .auction-price .how-it-works ul li {
+    padding-bottom: 15px;
+  }
+  #auction-details-page .auction-details-container .auction-price .how-it-works ul li .fa-solid {
+    color: #000;
+    height: 45px;
+    margin-top: 5px;
+    width: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    float: left;
+  }
+}
+@media all and (max-width: 991px) {
+  h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .section-title p {
+    padding: 0px 30px !important;
+  }
+  #header .navbar {
+    padding: 0px 15px;
+  }
+  #header .navbar-nav {
+    align-items: flex-start;
+    line-height: 38px;
+  }
+  #banner {
+    padding: 50px 15px;
+    text-align: left;
+  }
+  #banner .bannerL {
+    padding-right: 0px;
+  }
+  #banner .bannerL .banner-search form {
+    display: flex;
+  }
+  #banner .bannerL .ex-text ul {
+    justify-content: flex-start;
+  }
+  #banner .bannerL .ex-text ul li {
+    padding: 0px 10px;
+  }
+  #banner .bannerL .ex-text ul li:last-child {
+    border-right: none;
+  }
+  #banner .bannerR {
+    position: relative;
+  }
+  #banner .bannerR img {
+    position: absolute;
+    bottom: -50px;
+  }
+  #why-us-container .why-us-block p {
+    margin-bottom: 15px;
+  }
+  #get-started {
+    text-align: center;
+  }
+  #get-started .info {
+    flex-direction: column;
+  }
+  #get-started .info h4 {
+    padding-bottom: 15px;
+  }
+  #testimonials .items-block p {
+    padding: 0px 30px;
+  }
+  footer {
+    padding: 0px 15px;
+  }
+  footer h5 {
+    padding: 50px 0px 10px 0px;
+  }
+  footer .fbottom {
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 50px;
+  }
+  footer .fbottom .flinks ul {
+    justify-content: center;
+  }
+  .breadcrumb-title p {
+    padding: 0px 0px;
+  }
+  #listing-details-page .listing-container .col-left {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-right {
+    width: 100%;
+  }
+  #listing-details-page .breadcrumb {
+    padding: 0px 0px 50px 0px;
+  }
+  #listing-details-page .listing-container {
+    padding: 50px 15px;
+    flex-direction: column;
+  }
+  #listing-details-page .listing-container .col-left {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-left .logo-banner img {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .mob-current-price {
+    display: block;
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .mob-price, #listing-details-page .listing-container .col-left .domain-info .mob-time {
+    font-weight: 600;
+    line-height: 30px;
+    color: #098c43;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .mob-time-rem {
+    display: block;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .share-icons {
+    display: flex;
+    margin-top: 30px;
+    padding: 0px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .share-icons ul {
+    display: flex;
+    gap: 15px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .share-icons ul li {
+    justify-content: space-evenly;
+    padding-left: 10px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .list-btns {
+    display: flex;
+    gap: 15px;
+    padding: 0px;
+    margin-top: 30px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .list-btns div {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .time {
+    flex-direction: column;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .time div {
+    width: 100%;
+    border-right: none;
+  }
+  #listing-details-page .listing-container .col-right {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info {
+    flex-direction: column;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info div {
+    width: 100%;
+    display: none;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info div .current-price,
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info div .rem-days {
+    display: none;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .mob-share-icons, #listing-details-page .listing-container .col-right .domain-details .mob-list-btns {
+    display: none;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .listing-btns {
+    flex-direction: column;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .listing-btns div {
+    width: 100%;
+  }
+  #auction-page .breadcrumb {
+    padding: 50px 0px;
+  }
+  #auction-page .auction-container {
+    padding: 50px 15px;
+  }
+  #auction-page .auction-container .ex-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  #auction-page .auction-container .ex-flex .sort {
+    padding-top: 15px;
+  }
+  #auction-page .auction-container .auction-table {
+    margin: 30px 0px;
+    box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+  }
+  #auction-page .auction-container .auction-table table {
+    overflow-x: auto;
+  }
+  #auction-page .auction-container .auction-table table thead td {
+    padding: 20px 0px;
+  }
+  #auction-page .auction-container .auction-table table tr td {
+    padding: 20px 0px;
+  }
+  #auction-page .auction-container .auction-table table tr .domain {
+    color: #0A033C;
+  }
+  #auction-page .auction-container .auction-table table tr .bid-btn {
+    background-color: #098c43;
+    padding: 10px 18px;
+    border-radius: 30px;
+    color: #fff;
+  }
+  #auction-details-page .breadcrumb {
+    padding: 50px 0px;
+  }
+  #auction-details-page .auction-details-container {
+    padding: 50px 15px;
+  }
+  #auction-details-page .auction-details-container .auction-table table {
+    text-align: center;
+  }
+  #auction-details-page .auction-details-container .auction-table table thead td {
+    padding: 20px 0px;
+    border: 1px solid #ccc;
+  }
+  #auction-details-page .auction-details-container .auction-table table tr td {
+    padding: 20px 0px;
+    border: 1px solid #ccc;
+  }
+  #auction-details-page .auction-details-container .auction-price {
+    margin-top: 15px;
+  }
+  #auction-details-page .auction-details-container .auction-price .how-it-works ul li {
+    padding-bottom: 15px;
+  }
+  #auction-details-page .auction-details-container .auction-price .how-it-works ul li .fa-solid {
+    height: 65px;
+  }
+  #about-us .breadcrumb {
+    padding: 50px 0px;
+  }
+  #about-us .about-container {
+    padding: 50px 0px;
+  }
+  #contact-us .breadcrumb {
+    padding: 50px 0px;
+  }
+  #contact-us .contact-container {
+    padding: 50px 0px;
+  }
+  #contact-us .contact-container form {
+    padding-bottom: 50px;
+  }
+  #contact-us .contact-container .contact-details {
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+  }
+  #contact-us .contact-container .contact-details .block-item {
+    padding: 50px 15px;
+    margin-bottom: 30px;
+  }
+}
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .section-title p {
+    padding: 0px 30px !important;
+  }
+  #header .navbar {
+    padding: 0px 15px;
+  }
+  #header .navbar-nav {
+    align-items: flex-start;
+    line-height: 38px;
+  }
+  #banner {
+    padding: 50px 15px;
+    text-align: center;
+  }
+  #banner .bannerL {
+    padding-right: 0px;
+    padding-bottom: 40px;
+  }
+  #banner .bannerL .banner-search form {
+    display: flex;
+  }
+  #banner .bannerL .ex-text ul {
+    justify-content: center;
+  }
+  #banner .bannerL .ex-text ul li {
+    padding: 0px 10px;
+  }
+  #banner .bannerL .ex-text ul li:last-child {
+    border-right: none;
+  }
+  #banner .bannerR {
+    position: relative;
+  }
+  #banner .bannerR img {
+    display: none;
+  }
+  #featured-container {
+    padding: 50px 0px;
+  }
+  #why-us-container {
+    padding: 50px 0px 50px 0px;
+  }
+  #why-us-container .why-us-block {
+    text-align: center;
+  }
+  #why-us-container .why-us-block p {
+    margin-bottom: 15px;
+  }
+  #get-started {
+    text-align: center;
+  }
+  #get-started .info {
+    flex-direction: column;
+  }
+  #get-started .info h4 {
+    padding-bottom: 15px;
+  }
+  #testimonials {
+    padding: 50px 0px 50px 0px;
+  }
+  #testimonials .items-block p {
+    padding: 0px 30px;
+  }
+  #tags {
+    padding: 50px 0px 50px 0px;
+  }
+  footer {
+    padding: 0px 15px;
+  }
+  footer h5 {
+    padding: 50px 0px 10px 0px;
+  }
+  footer .fbottom {
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 50px;
+  }
+  footer .fbottom .flinks ul {
+    justify-content: center;
+  }
+  .breadcrumb-title p {
+    padding: 0px 0px;
+  }
+  #listing-page .breadcrumb {
+    padding: 0px 0px 50px 0px;
+  }
+  #listing-page .listing-container {
+    padding: 50px 15px;
+    flex-direction: column;
+  }
+  #listing-page .listing-container .col-left {
+    width: 100%;
+  }
+  #listing-page .listing-container .col-left .cat, #listing-page .listing-container .col-left .price-range, #listing-page .listing-container .col-left .extension {
+    display: none;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card {
+    margin-bottom: 5px;
+    border-radius: 0px;
+    border: 1px solid #e8e3e3;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card .listing-card-header {
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card .listing-card-header h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #098c43 !important;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseOne .listing-card-body {
+    padding: 15px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body {
+    padding: 15px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+    /*hide the outline behind the border*/
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider .rangeValues {
+    display: block;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range] {
+    -webkit-appearance: none;
+    border: 1px solid white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #0A033C;
+    margin-top: -4px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]:focus {
+    outline: none;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-moz-range-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #0A033C;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]:-moz-focusring {
+    outline: 1px solid white;
+    outline-offset: -1px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-ms-track {
+    width: 300px;
+    height: 5px;
+    background: transparent;
+    border-color: transparent;
+    border-width: 6px 0;
+    color: transparent;
+    z-index: -4;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-ms-fill-lower {
+    background: #777;
+    border-radius: 10px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-ms-fill-upper {
+    background: #ddd;
+    border-radius: 10px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-ms-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #21c1ff;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]:focus::-ms-fill-lower {
+    background: #888;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]:focus::-ms-fill-upper {
+    background: #ccc;
+  }
+  #listing-page .listing-container .col-right {
+    width: 100%;
+  }
+  #listing-page .listing-container .col-right .sort {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-left {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-right {
+    width: 100%;
+  }
+  #listing-details-page .breadcrumb {
+    padding: 0px 0px 50px 0px;
+  }
+  #listing-details-page .listing-container {
+    padding: 50px 15px;
+    flex-direction: column;
+  }
+  #listing-details-page .listing-container .col-left {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-left .logo-banner img {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .mob-current-price {
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .mob-time-rem {
+    display: block;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .mob-price, #listing-details-page .listing-container .col-left .domain-info .mob-time {
+    font-weight: 600;
+    line-height: 30px;
+    color: #098c43;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .time {
+    flex-direction: column;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .time div {
+    width: 100%;
+    border-right: none;
+  }
+  #listing-details-page .listing-container .col-right {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info {
+    flex-direction: column;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info .mob-share-icons, #listing-details-page .listing-container .col-right .domain-details .domain-details-info .mob-list-btns {
+    display: none;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info div {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .listing-btns {
+    flex-direction: column;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .listing-btns div {
+    width: 100%;
+  }
+  #auction-page .breadcrumb {
+    padding: 50px 0px;
+  }
+  #auction-page .auction-container {
+    padding: 50px 15px;
+  }
+  #auction-page .auction-container .ex-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  #auction-page .auction-container .ex-flex .sort {
+    padding-top: 15px;
+  }
+  #auction-page .auction-container .auction-table {
+    margin: 30px 0px;
+    box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+  }
+  #auction-page .auction-container .auction-table table {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    width: 100%;
+  }
+  #auction-page .auction-container .auction-table table thead {
+    width: 100%;
+    text-align: center;
+  }
+  #auction-page .auction-container .auction-table table thead tr {
+    padding: 10px 20px;
+    background-color: #0A033C;
+    border: 1px solid #000;
+  }
+  #auction-page .auction-container .auction-table table thead tr td {
+    padding: 10px 20px;
+  }
+  #auction-page .auction-container .auction-table table tr td {
+    padding: 0px 20px;
+  }
+  #auction-page .auction-container .auction-table table tr .domain {
+    color: #0A033C;
+  }
+  #auction-page .auction-container .auction-table table tr .bid-btn {
+    background-color: transparent;
+    color: #098c43;
+  }
+  #auction-details-page .breadcrumb {
+    padding: 50px 0px;
+  }
+  #auction-details-page .auction-details-container {
+    padding: 50px 15px;
+  }
+  #auction-details-page .auction-details-container .auction-table table {
+    text-align: center;
+  }
+  #auction-details-page .auction-details-container .auction-table table thead td {
+    padding: 20px 0px;
+    border: 1px solid #ccc;
+  }
+  #auction-details-page .auction-details-container .auction-table table tr td {
+    padding: 20px 0px;
+    border: 1px solid #ccc;
+  }
+  #auction-details-page .auction-details-container .auction-price {
+    margin-top: 15px;
+  }
+  #auction-details-page .auction-details-container .auction-price .how-it-works ul li {
+    padding-bottom: 15px;
+  }
+  #auction-details-page .auction-details-container .auction-price .how-it-works ul li .fa-solid {
+    height: 65px;
+  }
+  #about-us .breadcrumb {
+    padding: 50px 0px;
+  }
+  #about-us .about-container {
+    padding: 50px 0px;
+  }
+  #contact-us .breadcrumb {
+    padding: 50px 0px;
+  }
+  #contact-us .contact-container {
+    padding: 50px 0px;
+  }
+  #contact-us .contact-container form {
+    padding-bottom: 50px;
+  }
+  #contact-us .contact-container .contact-details {
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+  }
+  #contact-us .contact-container .contact-details .block-item {
+    padding: 50px 15px;
+    margin-bottom: 30px;
+  }
+}
+@media all and (max-width: 375px) {
+  h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .section-title p {
+    padding: 0px 30px !important;
+  }
+  #header .navbar {
+    padding: 0px 15px;
+  }
+  #header .navbar-nav {
+    align-items: flex-start;
+    line-height: 38px;
+  }
+  #banner {
+    padding: 50px 15px;
+    text-align: center;
+  }
+  #banner .bannerL {
+    padding-right: 0px;
+    padding-bottom: 40px;
+  }
+  #banner .bannerL .banner-search form {
+    display: flex;
+  }
+  #banner .bannerL .ex-text ul {
+    justify-content: center;
+  }
+  #banner .bannerL .ex-text ul li {
+    padding: 0px 10px;
+  }
+  #banner .bannerL .ex-text ul li:last-child {
+    border-right: none;
+  }
+  #banner .bannerR img {
+    display: none;
+  }
+  #featured-container {
+    padding: 50px 0px;
+  }
+  #why-us-container {
+    padding: 50px 0px;
+  }
+  #why-us-container .why-us-block {
+    text-align: center;
+  }
+  #why-us-container .why-us-block p {
+    margin-bottom: 15px;
+  }
+  #get-started {
+    text-align: center;
+  }
+  #get-started .info {
+    flex-direction: column;
+  }
+  #get-started .info h4 {
+    padding-bottom: 15px;
+  }
+  #testimonials {
+    padding: 50px 0px;
+  }
+  #testimonials .items-block p {
+    padding: 0px 30px;
+  }
+  #tags {
+    padding: 50px 0px 50px 0px;
+  }
+  footer {
+    padding: 0px 0px;
+  }
+  footer h5 {
+    padding: 50px 0px 10px 0px;
+  }
+  footer .fbottom {
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 50px;
+  }
+  footer .fbottom .flinks ul {
+    justify-content: center;
+  }
+  .breadcrumb-title p {
+    padding: 0px 0px;
+  }
+  #listing-page .breadcrumb {
+    padding: 0px 0px 50px 0px;
+  }
+  #listing-page .listing-container {
+    padding: 50px 15px;
+    flex-direction: column;
+  }
+  #listing-page .listing-container .col-left {
+    width: 100%;
+    order: 1;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card {
+    margin-bottom: 5px;
+    border-radius: 0px;
+    border: 1px solid #e8e3e3;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card .listing-card-header {
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card .listing-card-header h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #098c43 !important;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseOne .listing-card-body {
+    padding: 15px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body {
+    padding: 15px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+    /*hide the outline behind the border*/
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider .rangeValues {
+    display: block;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range] {
+    -webkit-appearance: none;
+    border: 1px solid white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #0A033C;
+    margin-top: -4px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]:focus {
+    outline: none;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-moz-range-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #0A033C;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]:-moz-focusring {
+    outline: 1px solid white;
+    outline-offset: -1px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-ms-track {
+    width: 300px;
+    height: 5px;
+    background: transparent;
+    border-color: transparent;
+    border-width: 6px 0;
+    color: transparent;
+    z-index: -4;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-ms-fill-lower {
+    background: #777;
+    border-radius: 10px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-ms-fill-upper {
+    background: #ddd;
+    border-radius: 10px;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]::-ms-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #21c1ff;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]:focus::-ms-fill-lower {
+    background: #888;
+  }
+  #listing-page .listing-container .col-left .mobile-collapse .accordion .card #collapseTwo .listing-card-body .range-slider input[type=range]:focus::-ms-fill-upper {
+    background: #ccc;
+  }
+  #listing-page .listing-container .col-left .reviews .review-container .reply-block-2 {
+    margin-left: 0px !important;
+  }
+  #listing-page .listing-container .col-right {
+    width: 100%;
+    order: 2;
+  }
+  #listing-page .listing-container .col-right .sort {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-left {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-right {
+    width: 100%;
+  }
+  #listing-details-page .breadcrumb {
+    padding: 0px 0px 50px 0px;
+  }
+  #listing-details-page .listing-container {
+    padding: 50px 15px;
+    flex-direction: column;
+  }
+  #listing-details-page .listing-container .col-left {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-left .logo-banner img {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .mob-current-price {
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .mob-time-rem {
+    display: block;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .time {
+    flex-direction: column;
+  }
+  #listing-details-page .listing-container .col-left .domain-info .time div {
+    width: 100%;
+    border-right: none;
+  }
+  #listing-details-page .listing-container .col-left .reviews .review-container .reply-block-2 {
+    margin-left: 0px;
+  }
+  #listing-details-page .listing-container .col-right {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info {
+    flex-direction: column;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info div {
+    width: 100%;
+    display: none;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info div .current-price,
+  #listing-details-page .listing-container .col-right .domain-details .domain-details-info div .rem-days {
+    display: none;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .mob-share-icons, #listing-details-page .listing-container .col-right .domain-details .mob-list-btns {
+    display: none;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .list-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .list-btns div {
+    width: 98.5%;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .list-btns div .title-btn {
+    width: 100%;
+  }
+  #listing-details-page .listing-container .col-right .domain-details .modal-header button {
+    background-color: #098c43;
+    border: 1px solid #098c43;
+    color: #fff;
+  }
+  #auction-page .breadcrumb {
+    padding: 50px 0px;
+  }
+  #auction-page .auction-container {
+    padding: 50px 15px;
+  }
+  #auction-page .auction-container .ex-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  #auction-page .auction-container .ex-flex .sort {
+    padding-top: 15px;
+  }
+  #auction-page .auction-container .auction-table {
+    margin: 30px 0px;
+    box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+  }
+  #auction-page .auction-container .auction-table table {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    width: 100%;
+  }
+  #auction-page .auction-container .auction-table table thead {
+    width: 100%;
+    text-align: center;
+  }
+  #auction-page .auction-container .auction-table table thead tr {
+    padding: 10px 20px;
+    background-color: #0A033C;
+    border: 1px solid #000;
+  }
+  #auction-page .auction-container .auction-table table thead tr td {
+    padding: 10px 20px;
+  }
+  #auction-page .auction-container .auction-table table tr td {
+    padding: 0px 20px;
+  }
+  #auction-page .auction-container .auction-table table tr .domain {
+    color: #0A033C;
+  }
+  #auction-page .auction-container .auction-table table tr .bid-btn {
+    background-color: transparent;
+    color: #098c43;
+  }
+  #auction-details-page .breadcrumb {
+    padding: 50px 0px;
+  }
+  #auction-details-page .auction-details-container {
+    padding: 50px 15px;
+  }
+  #auction-details-page .auction-details-container .auction-table table {
+    text-align: center;
+  }
+  #auction-details-page .auction-details-container .auction-table table thead td {
+    padding: 20px 0px;
+    border: 1px solid #ccc;
+  }
+  #auction-details-page .auction-details-container .auction-table table tr td {
+    padding: 20px 0px;
+    border: 1px solid #ccc;
+  }
+  #auction-details-page .auction-details-container .auction-price {
+    margin-top: 15px;
+  }
+  #auction-details-page .auction-details-container .auction-price .how-it-works ul li {
+    padding-bottom: 15px;
+  }
+  #auction-details-page .auction-details-container .auction-price .how-it-works ul li .fa-solid {
+    height: 65px;
+  }
+  #about-us .breadcrumb {
+    padding: 50px 0px;
+  }
+  #about-us .about-container {
+    padding: 50px 0px;
+  }
+  #contact-us .breadcrumb {
+    padding: 50px 0px;
+  }
+  #contact-us .contact-container {
+    padding: 50px 0px;
+  }
+  #contact-us .contact-container form {
+    padding-bottom: 50px;
+  }
+  #contact-us .contact-container .contact-details {
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+  }
+  #contact-us .contact-container .contact-details .block-item {
+    padding: 50px 15px;
+    margin-bottom: 30px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

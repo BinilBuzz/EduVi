@@ -1,0 +1,2010 @@
+/**
+ * Created by Binil
+*/
+
+@import "components/fonts_and_colors";
+
+@media all and (max-width: 1900px) {
+
+
+  //Listing Details Page
+  #listing-details-page {
+    .listing-container {
+      .col-left {
+        .domain-info {
+          .mob-current-price {
+            display: none;
+          }
+
+          .mob-time-rem {
+            display: none;
+          }
+        }
+
+        .reviews {
+          .review-container {
+            .reply-block-2 {
+              margin-left: 0px;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@media all and (max-width: 1600px) {
+
+
+
+  //Listing Details Page
+  #listing-details-page {
+    .listing-container {
+      .col-left {
+        .domain-info {
+          .mob-current-price {
+            display: none;
+          }
+
+          .mob-time-rem {
+            display: none;
+          }
+        }
+
+        .reviews {
+          .review-container {
+            .reply-block-2 {
+              margin-left: 0px;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@media all and (max-width: 1399px) {
+  .main-btn-blue {
+    padding: 15px 15px;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 41px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  #header {
+    .nav-link {
+      padding: 0px 10px;
+    }
+  }
+  #featured-container {
+    padding: 50px 0px;
+  }
+
+
+  #why-us-container {
+    .line {
+      border-top: 2px solid #ccc;
+      padding: 100px 0px;
+    }
+
+    .why-us-block {
+      p {
+        padding: 10px 0px;
+      }
+    }
+  }
+  #why-us-container {
+    .line {
+      border-top: 2px solid #ccc;
+      padding: 100px 0px;
+    }
+
+    .why-us-block {
+      p {
+        padding: 10px 0px;
+      }
+    }
+  }
+  #why-us-container {
+    .line {
+      border-top: 2px solid #ccc;
+      padding: 100px 0px;
+    }
+
+    .why-us-block {
+      p {
+        padding: 10px 0px;
+      }
+    }
+  }
+  #why-us-container {
+    .line {
+      border-top: 2px solid #ccc;
+      padding: 100px 0px;
+    }
+
+    .why-us-block {
+      p {
+        padding: 10px 0px;
+      }
+    }
+  }
+  #why-us-container {
+    .line {
+      border-top: 2px solid #ccc;
+      padding: 100px 0px;
+    }
+
+    .why-us-block {
+      p {
+        padding: 10px 0px;
+      }
+    }
+  }
+  #why-us-container {
+    .line {
+      border-top: 2px solid #ccc;
+      padding: 100px 0px;
+    }
+
+    .why-us-block {
+      p {
+        padding: 10px 0px;
+      }
+    }
+  }
+  #why-us-container {
+    .line {
+      border-top: 2px solid #ccc;
+      padding: 100px 0px;
+    }
+
+    .why-us-block {
+      p {
+        padding: 10px 0px;
+      }
+    }
+  }
+  #why-us-container {
+    .line {
+      border-top: 2px solid #ccc;
+      padding: 100px 0px;
+    }
+
+    .why-us-block {
+      p {
+        padding: 10px 0px;
+      }
+    }
+  }
+  #why-us-container {
+    .line {
+      border-top: 2px solid #ccc;
+      padding: 100px 0px;
+    }
+
+    .why-us-block {
+      p {
+        padding: 10px 0px;
+      }
+    }
+  }
+  #why-us-container {
+    .line {
+      border-top: 2px solid #ccc;
+      padding: 100px 0px;
+    }
+
+    .why-us-block {
+      p {
+        padding: 10px 0px;
+      }
+    }
+  }
+  #why-us-container {
+    .line {
+      border-top: 2px solid #ccc;
+      padding: 100px 0px;
+    }
+
+    .why-us-block {
+      p {
+        padding: 10px 0px;
+      }
+    }
+  }
+  #why-us-container {
+    .line {
+      border-top: 2px solid #ccc;
+      padding: 100px 0px;
+    }
+
+    .why-us-block {
+      p {
+        padding: 10px 0px;
+      }
+    }
+  }
+  #why-us-container {
+    .line {
+      border-top: 2px solid #ccc;
+      padding: 100px 0px;
+    }
+
+    .why-us-block {
+      p {
+        padding: 10px 0px;
+      }
+    }
+  }
+
+
+  #why-us-container {
+    .line {
+      padding: 50px 0px;
+    }
+
+    .why-us-block {
+      p {
+        text-align: justify;
+      }
+    }
+  }
+
+  #testimonials {
+    padding: 50px 0px;
+    text-align: center;
+
+  }
+
+  #tags {
+    padding: 50px 0px 50px 0px;
+  }
+
+  footer {
+    padding: 50px 0px 0px 0px;
+
+    .fbottom {
+      padding: 30px 0px 30px 0px;
+      margin-top: 50px;
+    }
+  }
+
+
+
+  // Listing-Details-Page Css
+  #listing-details-page {
+    .listing-container {
+      .col-left {
+        width: 60%;
+
+        .domain-info {
+          h1 {
+            font-size: 22px;
+            line-height: 28px;
+          }
+
+          h2 {
+            font-size: 18px;
+            line-height: 26px;
+          }
+
+          .time {
+            display: flex;
+            gap: 25px;
+            margin-top: 30px;
+
+            div {
+              justify-content: space-evenly;
+              width: 33.33%;
+              border-right: 2px solid $color-grey;
+              font-size: 22px;
+            }
+
+            .age,
+            .host,
+            .expires {
+              font-size: 22px !important;
+              line-height: 28px;
+            }
+          }
+        }
+      }
+
+      .col-right {
+        width: 40%;
+
+        .domain-details {
+          .domain-details-info {
+            div {
+              font-size: 20px;
+              line-height: 28px;
+
+              .current-price,
+              .rem-days {
+                font-size: 20px !important;
+              }
+            }
+          }
+
+          .listing-btns {
+            div {
+              padding: 15px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Auction-Details-Page Css Ends
+  #auction-details-page {
+    .breadcrumb {
+      padding: 50px 0px;
+      @include bg-green;
+      color: $color-white;
+    }
+
+    .auction-details-container {
+      padding: 50px 0px;
+
+      .auction-table {
+        box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+
+        table {
+          thead {
+            @include bg-blue;
+            color: $color-white;
+
+            td {
+              padding: 20px 30px;
+            }
+          }
+
+          tr {
+            td {
+              padding: 20px 30px;
+            }
+
+            .domain {
+              color: $color-blue;
+            }
+
+            .bid-btn {
+              background-color: $color-green;
+              padding: 10px 18px;
+              border-radius: 30px;
+              color: $color-white;
+
+            }
+          }
+        }
+      }
+
+      .auction-price {
+        border-radius: 2px;
+        border-top: 3px solid #4e93fe;
+        box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+        padding: 30px 30px;
+
+        .auction-details-info {
+          display: flex;
+          gap: 25px;
+
+          div {
+            width: 50%;
+            justify-content: space-around;
+            font-size: 20px;
+            line-height: 32px;
+
+          }
+
+          .current-price {
+            display: block;
+            color: $color-green;
+            font-size: 22px;
+            font-weight: 600;
+            text-align: end;
+          }
+        }
+
+        .make-bid {
+          padding: 30px 0px 30px;
+
+          label {
+            padding-bottom: 6px;
+          }
+
+          .auction-btn {
+            width: 32%;
+            padding: 12px 15px;
+            @include bg-green;
+            border: none;
+            color: #fff;
+            text-transform: uppercase;
+          }
+        }
+
+        .how-it-works {
+          h2 {
+            color: $color-green;
+            text-transform: uppercase;
+            padding: 15px 0px 10px 0px;
+          }
+
+          ul {
+            li {
+              padding-bottom: 15px;
+
+              & .fa-solid {
+                color: #000;
+                height: 45px;
+                margin-top: 5px;
+                width: 25px;
+                font-weight: 600;
+                font-size: 16px;
+                float: left;
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media all and (max-width: 1199px) {
+
+}
+
+@media all and (max-width: 991px) {
+  h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .section-title p {
+    padding: 0px 30px !important;
+  }
+  // Header
+  #header {
+    .navbar {
+      padding: 0px 15px;
+    }
+
+    .navbar-nav {
+      align-items: flex-start;
+      line-height: 38px;
+    }
+  }
+  // Banner CSS
+  #banner {
+    padding: 50px 15px;
+    text-align: left;
+
+    .bannerL {
+      padding-right: 0px;
+
+      .banner-search {
+        form {
+          display: flex;
+        }
+      }
+
+      .ex-text {
+        ul {
+          justify-content: flex-start;
+
+          li {
+            padding: 0px 10px;
+
+            &:last-child {
+              border-right: none;
+            }
+          }
+        }
+      }
+    }
+
+    .bannerR {
+      position: relative;
+
+      img {
+        position: absolute;
+        bottom: -50px;
+
+      }
+    }
+  }
+
+  //Homepage
+  #why-us-container {
+    .why-us-block {
+      p {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  #get-started {
+    text-align: center;
+
+    .info {
+      flex-direction: column;
+
+      h4 {
+        padding-bottom: 15px;
+      }
+    }
+  }
+  #testimonials {
+    .items-block {
+      p {
+        padding: 0px 30px;
+      }
+    }
+  }
+
+  //Footer Css
+  footer {
+    padding: 0px 15px;
+
+    h5 {
+      padding: 50px 0px 10px 0px;
+    }
+
+    .fbottom {
+      text-align: center;
+      padding: 30px 0px;
+      margin-top: 50px;
+
+      .flinks {
+        ul {
+          justify-content: center;
+        }
+      }
+    }
+  }
+  //Listing Page
+  .breadcrumb-title {
+    p {
+      padding: 0px 0px;
+    }
+  }
+
+
+
+  #listing-details-page {
+    .listing-container {
+      .col-left {
+        width: 100%;
+      }
+
+      .col-right {
+        width: 100%;
+      }
+    }
+  }
+
+  // Listing-Details-Page Css Starts
+  #listing-details-page {
+    .breadcrumb {
+      padding: 0px 0px 50px 0px;
+    }
+
+    .listing-container {
+      padding: 50px 15px;
+      flex-direction: column;
+
+      .col-left {
+        width: 100%;
+
+        .logo-banner {
+          img {
+            width: 100%;
+          }
+        }
+
+        .domain-info {
+          .mob-current-price {
+            display: block;
+            margin-top: 30px;
+            font-size: 22px;
+            line-height: 26px;
+          }
+
+          .mob-price, .mob-time {
+            font-weight: 600;
+            line-height: 30px;
+            color: $color-green;
+          }
+
+          .mob-time-rem {
+            display: block;
+            font-size: 22px;
+            line-height: 26px;
+
+          }
+
+          .share-icons {
+            display: flex;
+            margin-top: 30px;
+            padding: 0px;
+
+            ul {
+              display: flex;
+              gap: 15px;
+
+              li {
+                justify-content: space-evenly;
+                padding-left: 10px;
+              }
+            }
+          }
+
+          .list-btns {
+            display: flex;
+            gap: 15px;
+            padding: 0px;
+            margin-top: 30px;
+
+            div {
+              width: 100%;
+            }
+          }
+
+          .time {
+            flex-direction: column;
+
+            div {
+              width: 100%;
+              border-right: none;
+            }
+          }
+        }
+      }
+
+      .col-right {
+        width: 100%;
+
+        .domain-details {
+          .domain-details-info {
+            flex-direction: column;
+
+            div {
+              width: 100%;
+              display: none;
+
+              .current-price,
+              .rem-days {
+                display: none;
+
+              }
+            }
+          }
+
+          .mob-share-icons, .mob-list-btns {
+            display: none;
+          }
+
+
+          .listing-btns {
+            flex-direction: column;
+
+            div {
+              width: 100%;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+  // Auction-Page Css
+  #auction-page {
+    .breadcrumb {
+      padding: 50px 0px;
+    }
+
+    .auction-container {
+      padding: 50px 15px;
+
+      .ex-flex {
+        flex-direction: column;
+        text-align: center;
+
+        .sort {
+          padding-top: 15px;
+        }
+      }
+
+      .auction-table {
+        margin: 30px 0px;
+        box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+
+        table {
+          overflow-x: auto;
+
+          thead {
+            td {
+              padding: 20px 0px;
+            }
+          }
+
+          tr {
+            td {
+              padding: 20px 0px;
+            }
+
+            .domain {
+              color: $color-blue;
+            }
+
+            .bid-btn {
+              background-color: $color-green;
+              padding: 10px 18px;
+              border-radius: 30px;
+              color: $color-white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Auction-Details-Page Css
+  #auction-details-page {
+    .breadcrumb {
+      padding: 50px 0px;
+    }
+
+    .auction-details-container {
+      padding: 50px 15px;
+
+      .auction-table {
+        table {
+          text-align: center;
+
+          thead {
+            td {
+              padding: 20px 0px;
+              border: 1px solid #ccc;
+            }
+          }
+
+          tr {
+            td {
+              padding: 20px 0px;
+              border: 1px solid #ccc;
+            }
+          }
+        }
+      }
+
+      .auction-price {
+        margin-top: 15px;
+
+        .how-it-works {
+          ul {
+            li {
+              padding-bottom: 15px;
+
+              & .fa-solid {
+                height: 65px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // About-Us-Page Css
+  #about-us {
+    .breadcrumb {
+      padding: 50px 0px;
+
+    }
+
+    .about-container {
+      padding: 50px 0px;
+    }
+  }
+
+  // Contact-Us Page Css
+  #contact-us {
+    .breadcrumb {
+      padding: 50px 0px;
+    }
+
+    .contact-container {
+      padding: 50px 0px;
+
+      form {
+        padding-bottom: 50px;
+      }
+
+      .contact-details {
+        text-align: center;
+        padding: 50px 0px 0px 0px;
+
+        .block-item {
+          padding: 50px 15px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .section-title p {
+    padding: 0px 30px !important;
+  }
+
+  // Header
+  #header {
+    .navbar {
+      padding: 0px 15px;
+    }
+
+    .navbar-nav {
+      align-items: flex-start;
+      line-height: 38px;
+    }
+  }
+
+  // Banner CSS
+  #banner {
+    padding: 50px 15px;
+    text-align: center;
+
+    .bannerL {
+      padding-right: 0px;
+      padding-bottom: 40px;
+
+      .banner-search {
+        form {
+          display: flex;
+        }
+      }
+
+      .ex-text {
+        ul {
+          justify-content: center;
+
+          li {
+            padding: 0px 10px;
+
+            &:last-child {
+              border-right: none;
+            }
+          }
+        }
+      }
+    }
+
+    .bannerR {
+      position: relative;
+
+      img {
+        display: none;
+
+      }
+    }
+  }
+
+  //Homepage
+  #featured-container {
+    padding: 50px 0px;
+  }
+
+  #why-us-container {
+    padding: 50px 0px 50px 0px;
+
+    .why-us-block {
+      text-align: center;
+
+      p {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  #get-started {
+    text-align: center;
+
+    .info {
+      flex-direction: column;
+
+      h4 {
+        padding-bottom: 15px;
+      }
+    }
+  }
+  #testimonials {
+    padding: 50px 0px 50px 0px;
+
+    .items-block {
+      p {
+        padding: 0px 30px;
+      }
+    }
+  }
+  #tags {
+    padding: 50px 0px 50px 0px;
+  }
+
+  //Footer Css
+  footer {
+    padding: 0px 15px;
+
+    h5 {
+      padding: 50px 0px 10px 0px;
+    }
+
+    .fbottom {
+      text-align: center;
+      padding: 30px 0px;
+      margin-top: 50px;
+
+      .flinks {
+        ul {
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  //Listing Page
+  .breadcrumb-title {
+    p {
+      padding: 0px 0px;
+    }
+  }
+  #listing-page {
+    .breadcrumb {
+      padding: 0px 0px 50px 0px;
+    }
+
+    .listing-container {
+      padding: 50px 15px;
+      flex-direction: column;
+
+      .col-left {
+        width: 100%;
+
+        .cat, .price-range, .extension {
+          display: none;
+        }
+
+        .mobile-collapse {
+          .accordion {
+            .card {
+              margin-bottom: 5px;
+              border-radius: 0px;
+              border: 1px solid #e8e3e3;
+
+              .listing-card-header {
+                background-color: #f2f2f2;
+                padding: 10px 15px;
+
+                h1 {
+                  font-size: 24px;
+                  font-weight: 400;
+                  color: $color-green !important;
+                }
+
+              }
+
+              #collapseOne {
+                .listing-card-body {
+                  padding: 15px;
+                }
+              }
+
+              #collapseTwo {
+                .listing-card-body {
+                  padding: 15px;
+
+                  .range-slider {
+                    width: 100%;
+                    text-align: center;
+                    position: relative;
+                    padding-top: 30px;
+
+                    .rangeValues {
+                      display: block;
+                      padding-top: 20px;
+                      display: flex;
+                      justify-content: flex-start;
+                    }
+
+                    input[type="range"] {
+                      -webkit-appearance: none;
+                      border: 1px solid white;
+                      width: 100%;
+                      position: absolute;
+                      left: 0;
+                    }
+
+                    input[type="range"]::-webkit-slider-runnable-track {
+                      width: 100%;
+                      height: 5px;
+                      background: #ddd;
+                      border: none;
+                      border-radius: 3px;
+                    }
+
+                    input[type="range"]::-webkit-slider-thumb {
+                      -webkit-appearance: none;
+                      border: none;
+                      height: 16px;
+                      width: 16px;
+                      border-radius: 50%;
+                      background: $color-blue;
+                      margin-top: -4px;
+                      cursor: pointer;
+                      position: relative;
+                      z-index: 1;
+                    }
+
+                    input[type="range"]:focus {
+                      outline: none;
+                    }
+
+                    input[type="range"]:focus::-webkit-slider-runnable-track {
+                      background: #ccc;
+                    }
+
+                    input[type="range"]::-moz-range-track {
+                      width: 300px;
+                      height: 5px;
+                      background: #ddd;
+                      border: none;
+                      border-radius: 3px;
+                    }
+
+                    input[type="range"]::-moz-range-thumb {
+                      border: none;
+                      height: 16px;
+                      width: 16px;
+                      border-radius: 50%;
+                      background: $color-blue;
+                    }
+
+                    /*hide the outline behind the border*/
+                    input[type="range"]:-moz-focusring {
+                      outline: 1px solid white;
+                      outline-offset: -1px;
+                    }
+
+                    input[type="range"]::-ms-track {
+                      width: 300px;
+                      height: 5px;
+                      background: transparent;
+                      border-color: transparent;
+                      border-width: 6px 0;
+                      color: transparent;
+                      z-index: -4;
+                    }
+
+                    input[type="range"]::-ms-fill-lower {
+                      background: #777;
+                      border-radius: 10px;
+                    }
+
+                    input[type="range"]::-ms-fill-upper {
+                      background: #ddd;
+                      border-radius: 10px;
+                    }
+
+                    input[type="range"]::-ms-thumb {
+                      border: none;
+                      height: 16px;
+                      width: 16px;
+                      border-radius: 50%;
+                      background: #21c1ff;
+                    }
+                    input[type="range"]:focus::-ms-fill-lower {
+                      background: #888;
+                    }
+                    input[type="range"]:focus::-ms-fill-upper {
+                      background: #ccc;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .col-right {
+        width: 100%;
+
+        .sort {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #listing-details-page {
+    .listing-container {
+      .col-left {
+        width: 100%;
+      }
+      .col-right {
+        width: 100%;
+      }
+    }
+  }
+
+  // Listing-Details-Page Css Starts
+  #listing-details-page {
+    .breadcrumb {
+      padding: 0px 0px 50px 0px;
+    }
+
+    .listing-container {
+      padding: 50px 15px;
+      flex-direction: column;
+
+      .col-left {
+        width: 100%;
+
+        .logo-banner {
+          img {
+            width: 100%;
+          }
+        }
+
+        .domain-info {
+          .mob-current-price {
+            display: block;
+            margin-top: 30px;
+            font-size: 18px;
+            line-height: 26px;
+          }
+          .mob-time-rem {
+            display: block;
+            font-size: 18px;
+            line-height: 26px;
+          }
+          .mob-price, .mob-time {
+            font-weight: 600;
+            line-height: 30px;
+            color: $color-green;
+          }
+
+          .time {
+            flex-direction: column;
+
+            div {
+              width: 100%;
+              border-right: none;
+            }
+          }
+        }
+      }
+
+      .col-right {
+        width: 100%;
+
+        .domain-details {
+          .domain-details-info {
+            flex-direction: column;
+
+            .mob-share-icons, .mob-list-btns {
+              display: none;
+            }
+
+            div {
+              width: 100%;
+            }
+          }
+
+          .listing-btns {
+            flex-direction: column;
+
+            div {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Auction-Page Css
+  #auction-page {
+    .breadcrumb {
+      padding: 50px 0px;
+    }
+
+    .auction-container {
+      padding: 50px 15px;
+
+      .ex-flex {
+        flex-direction: column;
+        text-align: center;
+
+        .sort {
+          padding-top: 15px;
+        }
+      }
+
+      .auction-table {
+        margin: 30px 0px;
+        box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+
+        table {
+          font-size: 14px;
+          display: flex;
+          flex-direction: column;
+          overflow-x: scroll;
+          width: 100%;
+
+
+          thead {
+            width: 100%;
+            text-align: center;
+
+            tr {
+              padding: 10px 20px;
+              background-color: $color-blue;
+              border: 1px solid #000;
+
+              td {
+                padding: 10px 20px;
+
+              }
+            }
+
+          }
+
+          tr {
+            td {
+              padding: 0px 20px;
+
+            }
+
+            .domain {
+              color: $color-blue;
+            }
+
+            .bid-btn {
+              background-color: transparent;
+              color: $color-green;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Auction-Details-Page Css
+  #auction-details-page {
+    .breadcrumb {
+      padding: 50px 0px;
+    }
+
+    .auction-details-container {
+      padding: 50px 15px;
+
+      .auction-table {
+        table {
+          text-align: center;
+
+          thead {
+            td {
+              padding: 20px 0px;
+              border: 1px solid #ccc;
+            }
+          }
+
+          tr {
+            td {
+              padding: 20px 0px;
+              border: 1px solid #ccc;
+            }
+          }
+        }
+      }
+
+      .auction-price {
+        margin-top: 15px;
+
+        .how-it-works {
+          ul {
+            li {
+              padding-bottom: 15px;
+
+              & .fa-solid {
+                height: 65px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // About-Us-Page Css
+  #about-us {
+    .breadcrumb {
+      padding: 50px 0px;
+
+    }
+
+    .about-container {
+      padding: 50px 0px;
+    }
+  }
+
+  // Contact-Us Page Css
+  #contact-us {
+    .breadcrumb {
+      padding: 50px 0px;
+    }
+
+    .contact-container {
+      padding: 50px 0px;
+
+      form {
+        padding-bottom: 50px;
+      }
+
+      .contact-details {
+        text-align: center;
+        padding: 50px 0px 0px 0px;
+
+        .block-item {
+          padding: 50px 15px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 375px) {
+  h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .section-title p {
+    padding: 0px 30px !important;
+  }
+
+  // Header
+  #header {
+    .navbar {
+      padding: 0px 15px;
+    }
+
+    .navbar-nav {
+      align-items: flex-start;
+      line-height: 38px;
+    }
+  }
+  // Banner CSS
+  #banner {
+    padding: 50px 15px;
+    text-align: center;
+
+    .bannerL {
+      padding-right: 0px;
+      padding-bottom: 40px;
+
+      .banner-search {
+        form {
+          display: flex;
+        }
+      }
+
+      .ex-text {
+        ul {
+          justify-content: center;
+
+          li {
+            padding: 0px 10px;
+
+            &:last-child {
+              border-right: none;
+            }
+          }
+        }
+      }
+    }
+
+    .bannerR {
+      img {
+        display: none;
+      }
+    }
+  }
+
+  //Homepage
+  #featured-container {
+    padding: 50px 0px;
+  }
+  #why-us-container {
+    padding: 50px 0px;
+
+    .why-us-block {
+      text-align: center;
+
+      p {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  #get-started {
+    text-align: center;
+
+    .info {
+      flex-direction: column;
+
+      h4 {
+        padding-bottom: 15px;
+      }
+    }
+  }
+  #testimonials {
+    padding: 50px 0px;
+
+    .items-block {
+      p {
+        padding: 0px 30px;
+      }
+    }
+  }
+  #tags {
+    padding: 50px 0px 50px 0px;
+  }
+
+  //Footer Css
+  footer {
+    padding: 0px 0px;
+
+    h5 {
+      padding: 50px 0px 10px 0px;
+    }
+
+    .fbottom {
+      text-align: center;
+      padding: 30px 0px;
+      margin-top: 50px;
+
+      .flinks {
+        ul {
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  //Listing Page
+  .breadcrumb-title {
+    p {
+      padding: 0px 0px;
+    }
+  }
+  #listing-page {
+    .breadcrumb {
+      padding: 0px 0px 50px 0px;
+    }
+
+    .listing-container {
+      padding: 50px 15px;
+      flex-direction: column;
+
+      .col-left {
+        width: 100%;
+        order: 1;
+
+        .mobile-collapse {
+          .accordion {
+            .card {
+              margin-bottom: 5px;
+              border-radius: 0px;
+              border: 1px solid #e8e3e3;
+
+              .listing-card-header {
+                background-color: #f2f2f2;
+                padding: 10px 15px;
+
+                h1 {
+                  font-size: 24px;
+                  font-weight: 400;
+                  color: $color-green !important;
+                }
+
+              }
+
+              #collapseOne {
+                .listing-card-body {
+                  padding: 15px;
+                }
+              }
+
+              #collapseTwo {
+                .listing-card-body {
+                  padding: 15px;
+
+                  .range-slider {
+                    width: 100%;
+                    text-align: center;
+                    position: relative;
+                    padding-top: 30px;
+
+                    .rangeValues {
+                      display: block;
+                      padding-top: 20px;
+                      display: flex;
+                      justify-content: flex-start;
+                    }
+
+                    input[type="range"] {
+                      -webkit-appearance: none;
+                      border: 1px solid white;
+                      width: 100%;
+                      position: absolute;
+                      left: 0;
+                    }
+
+                    input[type="range"]::-webkit-slider-runnable-track {
+                      width: 100%;
+                      height: 5px;
+                      background: #ddd;
+                      border: none;
+                      border-radius: 3px;
+                    }
+
+                    input[type="range"]::-webkit-slider-thumb {
+                      -webkit-appearance: none;
+                      border: none;
+                      height: 16px;
+                      width: 16px;
+                      border-radius: 50%;
+                      background: $color-blue;
+                      margin-top: -4px;
+                      cursor: pointer;
+                      position: relative;
+                      z-index: 1;
+                    }
+
+                    input[type="range"]:focus {
+                      outline: none;
+                    }
+
+                    input[type="range"]:focus::-webkit-slider-runnable-track {
+                      background: #ccc;
+                    }
+
+                    input[type="range"]::-moz-range-track {
+                      width: 300px;
+                      height: 5px;
+                      background: #ddd;
+                      border: none;
+                      border-radius: 3px;
+                    }
+
+                    input[type="range"]::-moz-range-thumb {
+                      border: none;
+                      height: 16px;
+                      width: 16px;
+                      border-radius: 50%;
+                      background: $color-blue;
+                    }
+
+                    /*hide the outline behind the border*/
+                    input[type="range"]:-moz-focusring {
+                      outline: 1px solid white;
+                      outline-offset: -1px;
+                    }
+
+                    input[type="range"]::-ms-track {
+                      width: 300px;
+                      height: 5px;
+                      background: transparent;
+                      border-color: transparent;
+                      border-width: 6px 0;
+                      color: transparent;
+                      z-index: -4;
+                    }
+
+                    input[type="range"]::-ms-fill-lower {
+                      background: #777;
+                      border-radius: 10px;
+                    }
+
+                    input[type="range"]::-ms-fill-upper {
+                      background: #ddd;
+                      border-radius: 10px;
+                    }
+
+                    input[type="range"]::-ms-thumb {
+                      border: none;
+                      height: 16px;
+                      width: 16px;
+                      border-radius: 50%;
+                      background: #21c1ff;
+                    }
+
+                    input[type="range"]:focus::-ms-fill-lower {
+                      background: #888;
+                    }
+
+                    input[type="range"]:focus::-ms-fill-upper {
+                      background: #ccc;
+                    }
+                  }
+
+
+                }
+              }
+
+            }
+          }
+
+
+        }
+
+        .reviews {
+          .review-container {
+            .reply-block-2 {
+              margin-left: 0px !important;
+            }
+
+          }
+        }
+      }
+
+      .col-right {
+        width: 100%;
+        order: 2;
+
+        .sort {
+          width: 100%;
+        }
+      }
+    }
+  }
+  #listing-details-page {
+    .listing-container {
+      .col-left {
+        width: 100%;
+      }
+
+      .col-right {
+        width: 100%;
+
+
+      }
+    }
+  }
+
+  // Listing-Details-Page Css Starts
+  #listing-details-page {
+    .breadcrumb {
+      padding: 0px 0px 50px 0px;
+    }
+
+    .listing-container {
+      padding: 50px 15px;
+      flex-direction: column;
+
+      .col-left {
+        width: 100%;
+
+        .logo-banner {
+          img {
+            width: 100%;
+          }
+        }
+
+        .domain-info {
+          .mob-current-price {
+            display: block;
+            margin-top: 30px;
+            font-size: 18px;
+            line-height: 26px;
+
+
+          }
+
+          .mob-time-rem {
+            display: block;
+            font-size: 18px;
+            line-height: 26px;
+
+          }
+
+
+          .time {
+            flex-direction: column;
+
+            div {
+              width: 100%;
+              border-right: none;
+            }
+          }
+        }
+
+        .reviews {
+          .review-container {
+            .reply-block-2 {
+              margin-left: 0px;
+            }
+          }
+        }
+      }
+
+      .col-right {
+        width: 100%;
+
+        .domain-details {
+          .domain-details-info {
+            flex-direction: column;
+
+            div {
+              width: 100%;
+              display: none;
+
+              .current-price,
+              .rem-days {
+                display: none;
+
+              }
+            }
+
+
+          }
+
+          .mob-share-icons, .mob-list-btns {
+            display: none;
+          }
+
+
+          //.listing-btns {
+          //  flex-direction: column;
+          //
+          //  div {
+          //    width: 100%;
+          //  }
+          //}
+
+          .list-btns {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            div {
+              width: 98.5%;
+
+              .title-btn {
+                width: 100%;
+              }
+            }
+          }
+
+          .modal-header {
+            button {
+              background-color: $color-green;
+              border: 1px solid $color-green;
+              color: #fff;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+  // Auction-Page Css
+  #auction-page {
+    .breadcrumb {
+      padding: 50px 0px;
+    }
+
+    .auction-container {
+      padding: 50px 15px;
+
+      .ex-flex {
+        flex-direction: column;
+        text-align: center;
+
+        .sort {
+          padding-top: 15px;
+        }
+      }
+
+      .auction-table {
+        margin: 30px 0px;
+        box-shadow: 0px 0px 5px 1px rgba(205, 205, 205, 0.75);
+
+        table {
+          font-size: 14px;
+          display: flex;
+          flex-direction: column;
+          overflow-x: scroll;
+          width: 100%;
+
+
+          thead {
+            width: 100%;
+            text-align: center;
+
+            tr {
+              padding: 10px 20px;
+              background-color: $color-blue;
+              border: 1px solid #000;
+
+              td {
+                padding: 10px 20px;
+
+              }
+            }
+
+          }
+
+          tr {
+            td {
+              padding: 0px 20px;
+
+            }
+
+            .domain {
+              color: $color-blue;
+            }
+
+            .bid-btn {
+              background-color: transparent;
+              color: $color-green;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Auction-Details-Page Css
+  #auction-details-page {
+    .breadcrumb {
+      padding: 50px 0px;
+    }
+
+    .auction-details-container {
+      padding: 50px 15px;
+
+      .auction-table {
+        table {
+          text-align: center;
+
+          thead {
+            td {
+              padding: 20px 0px;
+              border: 1px solid #ccc;
+            }
+          }
+
+          tr {
+            td {
+              padding: 20px 0px;
+              border: 1px solid #ccc;
+            }
+          }
+        }
+      }
+
+      .auction-price {
+        margin-top: 15px;
+
+        .how-it-works {
+          ul {
+            li {
+              padding-bottom: 15px;
+
+              & .fa-solid {
+                height: 65px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // About-Us-Page Css
+  #about-us {
+    .breadcrumb {
+      padding: 50px 0px;
+
+    }
+
+    .about-container {
+      padding: 50px 0px;
+    }
+  }
+
+  // Contact-Us Page Css
+  #contact-us {
+    .breadcrumb {
+      padding: 50px 0px;
+    }
+
+    .contact-container {
+      padding: 50px 0px;
+
+      form {
+        padding-bottom: 50px;
+      }
+
+      .contact-details {
+        text-align: center;
+        padding: 50px 0px 0px 0px;
+
+        .block-item {
+          padding: 50px 15px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+
+}
